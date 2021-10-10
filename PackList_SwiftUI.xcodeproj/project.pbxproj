@@ -39,6 +39,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AA49B212712AD2300411E8A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C333B6B7254EA3E50074F61F /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1AA49B222712AD4500411E8A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1AA49B232712AD5E00411E8A /* etc */,
+				1AA49B242712AD8500411E8A /* Model */,
+				1AA49B252712AD9100411E8A /* View */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1AA49B232712AD5E00411E8A /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				C333B6BB254EA3E90074F61F /* Preview Content */,
+				C333B6B9254EA3E90074F61F /* Assets.xcassets */,
+				C333B6BE254EA3E90074F61F /* LaunchScreen.storyboard */,
+				C333B6C1254EA3E90074F61F /* Info.plist */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+		1AA49B242712AD8500411E8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C333B6C7255A26180074F61F /* DataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AA49B252712AD9100411E8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AA49B262712AD9800411E8A /* AppDelegate */,
+				1AA49B212712AD2300411E8A /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AA49B262712AD9800411E8A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C333B6B3254EA3E50074F61F /* AppDelegate.swift */,
+				C333B6B5254EA3E50074F61F /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		C333B6A7254EA3E50074F61F = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +113,7 @@
 		C333B6B2254EA3E50074F61F /* PackList_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				C333B6B3254EA3E50074F61F /* AppDelegate.swift */,
-				C333B6B5254EA3E50074F61F /* SceneDelegate.swift */,
-				C333B6C7255A26180074F61F /* DataManager.swift */,
-				C333B6B7254EA3E50074F61F /* ContentView.swift */,
-				C333B6B9254EA3E90074F61F /* Assets.xcassets */,
-				C333B6BE254EA3E90074F61F /* LaunchScreen.storyboard */,
-				C333B6C1254EA3E90074F61F /* Info.plist */,
-				C333B6BB254EA3E90074F61F /* Preview Content */,
+				1AA49B222712AD4500411E8A /* App */,
 			);
 			path = PackList_SwiftUI;
 			sourceTree = "<group>";
@@ -289,10 +337,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PackList_SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PackList_SwiftUI/App/etc/Preview Content\"";
 				DEVELOPMENT_TEAM = 5C2UYK6F45;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = PackList_SwiftUI/Info.plist;
+				INFOPLIST_FILE = PackList_SwiftUI/App/etc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,10 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PackList_SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PackList_SwiftUI/App/etc/Preview Content\"";
 				DEVELOPMENT_TEAM = 5C2UYK6F45;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = PackList_SwiftUI/Info.plist;
+				INFOPLIST_FILE = PackList_SwiftUI/App/etc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
